@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57607F"
+    android:padding="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:background="@android:drawable/alert_light_frame"
+        android:padding="18dp">
+        <TextView
+            android:text="TItulo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Titulo"
+            android:textColor="#16D4BB" />
+        <TextView
+            android:text="Autor"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Autor"
+            android:textColor="#000000" />
+        <TextView
+            android:text="la fecha"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Fecha"
+            android:textColor="#000000" />
+        <TextView
+            android:text="Contenido"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Descripcion"
+            android:textColor="#57607F" />
+    </LinearLayout>
+</LinearLayout>
